@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>ملف المسوق الشخصي</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/images/logo/favicon-two.png" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="../assets/css/fontawesome-all.min.css" />
+    <!-- Slick -->
+    <link rel="stylesheet" href="../assets/css/slick.css" />
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css" />
+    <!-- line awesome -->
+    <link rel="stylesheet" href="../assets/css/line-awesome.min.css" />
+    <!-- Main css -->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/arabic.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header-component-ar></header-component-ar>
+    <!-- ======================== Breadcrumb Three Section Start ===================== -->
+    <section
+      class="breadcrumb-three section-bg position-relative z-index-1 overflow-hidden"
+    >
+      <img
+        src="../assets/images/gradients/breadcrumb-gradient-bg.png"
+        alt=""
+        class="bg--gradient"
+      />
+      <img
+        src="../assets/images/shapes/element-moon3.png"
+        alt=""
+        class="element one"
+      />
+      <img
+        src="../assets/images/shapes/element-moon1.png"
+        alt=""
+        class="element three"
+      />
+      <div class="container container-two">
+        <div class="breadcrumb-three-content border-bottom border-color">
+          <div class="breadcrumb-three-content__inner">
+            <div class="breadcrumb-three-content__left">
+              <div class="flx-between align-items-end gap-3">
+                <div class="author-profile d-flex gap-2 flex-column">
+                  <div class="author-profile__thumb flex-shrink-0">
+                    <img
+                      src="../assets/images/thumbs/author-profile.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="d-flex align-items-end flex-wrap gap-4">
+                    <div class="author-profile__info">
+                      <h5 class="author-profile__name mb-2">الاسم الكامل</h5>
+                      <span class="author-profile__membership font-14">
+                        البريد الإلكتروني: example@email.com</span
+                      >
+                      <br />
+                      <span class="author-profile__membership font-14">
+                        رقم الهاتف: +966 XX XXX XXXX
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="breadcrumb-three-content__right flex-shrink-0 d-flex align-items-center gap-4 gap-lg-5"
+                >
+                  <div class="sales">
+                    <span class="sales__text mb-1 text-heading fw-500"
+                      >إجمالي الأرباح</span
+                    >
+                    <h5 class="sales__amount mb-0">15,000 ريال</h5>
+                  </div>
+                  <div class="sales">
+                    <span class="sales__text mb-1 text-heading fw-500"
+                      >عدد المشتريات</span
+                    >
+                    <h5 class="sales__amount mb-0">150</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul
+            class="nav tab-bordered nav-pills mt-4"
+            id="pills-tabbs"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="true"
+              >
+                المعلومات الشخصية
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-marketing-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-marketing"
+                type="button"
+                role="tab"
+                aria-controls="pills-marketing"
+                aria-selected="false"
+              >
+                المعلومات التسويقية
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-statistics-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-statistics"
+                type="button"
+                role="tab"
+                aria-controls="pills-statistics"
+                aria-selected="false"
+              >
+                الإحصائيات والتقارير
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-tools-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-tools"
+                type="button"
+                role="tab"
+                aria-controls="pills-tools"
+                aria-selected="false"
+              >
+                أدوات التسويق
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-rewards-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-rewards"
+                type="button"
+                role="tab"
+                aria-controls="pills-rewards"
+                aria-selected="false"
+              >
+                المكافآت والحوافز
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-earnings-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-earnings"
+                type="button"
+                role="tab"
+                aria-controls="pills-earnings"
+                aria-selected="false"
+              >
+                الأرباح والمدفوعات
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-support-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-support"
+                type="button"
+                role="tab"
+                aria-controls="pills-support"
+                aria-selected="false"
+              >
+                الدعم والمساعدة
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-terms-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-terms"
+                type="button"
+                role="tab"
+                aria-controls="pills-terms"
+                aria-selected="false"
+              >
+                سياسة وأحكام برنامج الإحالة
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-achievements-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-achievements"
+                type="button"
+                role="tab"
+                aria-controls="pills-achievements"
+                aria-selected="false"
+              >
+                الشهادات والإنجازات
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="tab-content" id="pills-tabbsContent">
+      <!-- Personal Information Tab -->
+      <div
+        class="tab-pane fade show active"
+        id="pills-profile"
+        role="tabpanel"
+        aria-labelledby="pills-profile-tab"
+      >
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="mb-4">المعلومات الشخصية</h4>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">الاسم الكامل</label>
+                      <input type="text" class="form-control" />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">البريد الإلكتروني</label>
+                      <input type="email" class="form-control" />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">رقم الهاتف</label>
+                      <input type="tel" class="form-control" />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">الصورة الشخصية</label>
+                      <input type="file" class="form-control" />
+                    </div>
+                  </div>
+                  <h4 class="mb-4 mt-4">روابط التواصل الاجتماعي</h4>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">فيسبوك</label>
+                      <input type="url" class="form-control" />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">تويتر</label>
+                      <input type="url" class="form-control" />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">انستغرام</label>
+                      <input type="url" class="form-control" />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">لينكد إن</label>
+                      <input type="url" class="form-control" />
+                    </div>
+                  </div>
+                  <button class="btn btn-primary mt-3">حفظ التغييرات</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Marketing Information Tab -->
+      <div
+        class="tab-pane fade"
+        id="pills-marketing"
+        role="tabpanel"
+        aria-labelledby="pills-marketing-tab"
+      >
+        <div class="container mt-4">
+          <div class="row">
+            <!-- Basic Marketing Info -->
+            <div class="col-12 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="mb-4">المعلومات التسويقية الأساسية</h4>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">رابط الإحالة</label>
+                      <div class="input-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          readonly
+                          value="https://example.com/ref/123"
+                        />
+                        <button class="btn btn-outline-secondary" type="button">
+                          نسخ
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">كود الخصم</label>
+                      <div class="input-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          readonly
+                          value="DISCOUNT50"
+                        />
+                        <button class="btn btn-outline-secondary" type="button">
+                          نسخ
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Statistics Tab -->
+      <div
+        class="tab-pane fade"
+        id="pills-statistics"
+        role="tabpanel"
+        aria-labelledby="pills-statistics-tab"
+      >
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-12 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="mb-4">الإحصائيات والتقارير</h4>
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="card bg-light">
+                        <div class="card-body">
+                          <h5 class="card-title">عدد الزوار</h5>
+                          <h3>1,234</h3>
+                          <p class="text-muted">من خلال رابط الإحالة</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                      <div class="card bg-light">
+                        <div class="card-body">
+                          <h5 class="card-title">المشتريات</h5>
+                          <div class="d-flex justify-content-between">
+                            <span>اليوم:</span>
+                            <span>15</span>
+                          </div>
+                          <div class="d-flex justify-content-between">
+                            <span>الأسبوع:</span>
+                            <span>87</span>
+                          </div>
+                          <div class="d-flex justify-content-between">
+                            <span>الشهر:</span>
+                            <span>350</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                      <div class="card bg-light">
+                        <div class="card-body">
+                          <h5 class="card-title">العمولات</h5>
+                          <div class="d-flex justify-content-between">
+                            <span>المستحقة:</span>
+                            <span class="text-primary">5,000 ريال</span>
+                          </div>
+                          <div class="d-flex justify-content-between">
+                            <span>المدفوعة:</span>
+                            <span class="text-success">15,000 ريال</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                      <div class="card bg-light">
+                        <div class="card-body">
+                          <h5 class="card-title">المنتجات الأكثر مبيعاً</h5>
+                          <ul class="list-unstyled">
+                            <li class="d-flex justify-content-between mb-2">
+                              <span>منتج 1</span>
+                              <span>50 مبيعة</span>
+                            </li>
+                            <li class="d-flex justify-content-between mb-2">
+                              <span>منتج 2</span>
+                              <span>35 مبيعة</span>
+                            </li>
+                            <li class="d-flex justify-content-between">
+                              <span>منتج 3</span>
+                              <span>28 مبيعة</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Marketing Tools Tab -->
+      <div
+        class="tab-pane fade"
+        id="pills-tools"
+        role="tabpanel"
+        aria-labelledby="pills-tools-tab"
+      >
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-12 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="mb-4">أدوات التسويق</h4>
+                  <div class="row">
+                    <!-- Promotional Materials -->
+                    <div class="col-md-6 mb-4">
+                      <h5 class="mb-3">المواد الدعائية</h5>
+                      <div class="list-group">
+                        <a
+                          href="#"
+                          class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                        >
+                          صورة دعائية 1200×628
+                          <i class="fas fa-download"></i>
+                        </a>
+                        <a
+                          href="#"
+                          class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                        >
+                          صورة دعائية 1080×1080
+                          <i class="fas fa-download"></i>
+                        </a>
+                        <a
+                          href="#"
+                          class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                        >
+                          فيديو ترويجي
+                          <i class="fas fa-play-circle"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Marketing Tips -->
+                    <div class="col-md-6 mb-4">
+                      <h5 class="mb-3">نصائح تسويقية</h5>
+                      <div class="card bg-light">
+                        <div class="card-body">
+                          <ul class="list-unstyled mb-0">
+                            <li class="mb-2">
+                              <i
+                                class="fas fa-check-circle text-success me-2"
+                              ></i
+                              >استخدم الهاشتاغات المناسبة
+                            </li>
+                            <li class="mb-2">
+                              <i
+                                class="fas fa-check-circle text-success me-2"
+                              ></i
+                              >شارك تجارب العملاء
+                            </li>
+                            <li>
+                              <i
+                                class="fas fa-check-circle text-success me-2"
+                              ></i
+                              >قم بتحديث محتواك بانتظام
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rewards Tab -->
+      <div
+        class="tab-pane fade"
+        id="pills-rewards"
+        role="tabpanel"
+        aria-labelledby="pills-rewards-tab"
+      >
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-12 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="mb-4">المكافآت والحوافز</h4>
+                  <div class="row">
+                    <!-- Current Rewards -->
+                    <div class="col-md-6 mb-4">
+                      <div class="card border-primary">
+                        <div class="card-header bg-primary text-white">
+                          المكافآت الحالية
+                        </div>
+                        <div class="card-body">
+                          <ul class="list-unstyled mb-0">
+                            <li class="mb-3">
+                              <h6>مبيعات 50,000 ريال</h6>
+                              <p class="text-muted mb-0">مكافأة إضافية 5%</p>
+                            </li>
+                            <li class="mb-3">
+                              <h6>مبيعات 100,000 ريال</h6>
+                              <p class="text-muted mb-0">مكافأة إضافية 10%</p>
+                            </li>
+                            <li>
+                              <h6>مبيعات 200,000 ريال</h6>
+                              <p class="text-muted mb-0">مكافأة إضافية 15%</p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Special Promotions -->
+                    <div class="col-md-6 mb-4">
+                      <div class="card border-warning">
+                        <div class="card-header bg-warning text-dark">
+                          العروض الخاصة
+                        </div>
+                        <div class="card-body">
+                          <div class="mb-3 pb-3 border-bottom">
+                            <h6>عرض الصيف</h6>
+                            <p class="text-muted mb-0">
+                              عمولة مضاعفة على جميع المبيعات
+                            </p>
+                            <small class="text-danger"
+                              >ينتهي في 31/8/2024</small
+                            >
+                          </div>
+                          <div>
+                            <h6>عرض نهاية الأسبوع</h6>
+                            <p class="text-muted mb-0">
+                              عمولة إضافية 5% على المنتجات المختارة
+                            </p>
+                            <small class="text-danger">كل نهاية أسبوع</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Earnings Tab -->
+      <div
+        class="tab-pane fade"
+        id="pills-earnings"
+        role="tabpanel"
+        aria-labelledby="pills-earnings-tab"
+      >
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="mb-4">سجل الأرباح والمدفوعات</h4>
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>التاريخ</th>
+                          <th>المبلغ</th>
+                          <th>نوع العملية</th>
+                          <th>الحالة</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>2024-01-15</td>
+                          <td>500 ريال</td>
+                          <td>عمولة مبيعات</td>
+                          <td>
+                            <span class="badge bg-success">تم الدفع</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>2024-01-10</td>
+                          <td>300 ريال</td>
+                          <td>عمولة مبيعات</td>
+                          <td>
+                            <span class="badge bg-success">تم الدفع</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>2024-01-05</td>
+                          <td>200 ريال</td>
+                          <td>عمولة مبيعات</td>
+                          <td>
+                            <span class="badge bg-warning">قيد المعالجة</span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Support & Help Tab -->
+      <div
+        class="tab-pane fade"
+        id="pills-support"
+        role="tabpanel"
+        aria-labelledby="pills-support-tab"
+      >
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-12 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="mb-4">الدعم والمساعدة</h4>
+                  <!-- Contact Links -->
+                  <div class="mb-4">
+                    <h5>روابط التواصل مع فريق الدعم</h5>
+                    <div class="list-group">
+                      <a
+                        href="#"
+                        class="list-group-item list-group-item-action"
+                      >
+                        <i class="fas fa-envelope me-2"></i>
+                        البريد الإلكتروني: support@example.com
+                      </a>
+                      <a
+                        href="#"
+                        class="list-group-item list-group-item-action"
+                      >
+                        <i class="fas fa-phone me-2"></i>
+                        الهاتف: +966 XX XXX XXXX
+                      </a>
+                      <a
+                        href="#"
+                        class="list-group-item list-group-item-action"
+                      >
+                        <i class="fas fa-comments me-2"></i>
+                        المحادثة المباشرة
+                      </a>
+                    </div>
+                  </div>
+                  <!-- FAQs -->
+                  <div class="mb-4">
+                    <h5>الأسئلة الشائعة</h5>
+                    <div class="accordion" id="faqAccordion">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq1"
+                          >
+                            كيف يمكنني البدء في برنامج الإحالة؟
+                          </button>
+                        </h2>
+                        <div
+                          id="faq1"
+                          class="accordion-collapse collapse show"
+                          data-bs-parent="#faqAccordion"
+                        >
+                          <div class="accordion-body">
+                            يمكنك البدء بالتسجيل في البرنامج وإكمال ملفك
+                            الشخصي...
+                          </div>
+                        </div>
+                      </div>
+                      <!-- More FAQ items -->
+                    </div>
+                  </div>
+                  <!-- User Guide -->
+                  <div>
+                    <h5>دليل المستخدم لبرنامج الإحالة</h5>
+                    <div class="card bg-light">
+                      <div class="card-body">
+                        <p>
+                          دليل شامل لاستخدام برنامج الإحالة وتحقيق أقصى استفادة
+                          منه.
+                        </p>
+                        <a href="#" class="btn btn-primary">تحميل الدليل</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Terms & Policies Tab -->
+      <div
+        class="tab-pane fade"
+        id="pills-terms"
+        role="tabpanel"
+        aria-labelledby="pills-terms-tab"
+      >
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-12 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="mb-4">سياسة وأحكام برنامج الإحالة</h4>
+                  <!-- Terms & Conditions -->
+                  <div class="mb-4">
+                    <h5>الشروط والأحكام الخاصة بالمسوقين</h5>
+                    <div class="card bg-light mb-3">
+                      <div class="card-body">
+                        <ul class="list-unstyled">
+                          <li class="mb-3">
+                            <i class="fas fa-check-circle text-success me-2"></i
+                            >يجب أن يكون عمر المسوق 18 عاماً فأكثر
+                          </li>
+                          <li class="mb-3">
+                            <i class="fas fa-check-circle text-success me-2"></i
+                            >يجب الالتزام بسياسات التسويق الأخلاقي
+                          </li>
+                          <li class="mb-3">
+                            <i class="fas fa-check-circle text-success me-2"></i
+                            >عدم استخدام أساليب التسويق المضللة
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Commission Payment Schedule -->
+                  <div class="mb-4">
+                    <h5>مواعيد صرف العمولات</h5>
+                    <div class="table-responsive">
+                      <table class="table table-bordered">
+                        <thead>
+                          <tr>
+                            <th>فترة المبيعات</th>
+                            <th>موعد الصرف</th>
+                            <th>طريقة الدفع</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1-15 من كل شهر</td>
+                            <td>20 من نفس الشهر</td>
+                            <td>تحويل بنكي</td>
+                          </tr>
+                          <tr>
+                            <td>16-30 من كل شهر</td>
+                            <td>5 من الشهر التالي</td>
+                            <td>تحويل بنكي</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <!-- Commission Calculation -->
+                  <div>
+                    <h5>آلية احتساب العمولات</h5>
+                    <div class="card bg-light">
+                      <div class="card-body">
+                        <ul class="list-unstyled">
+                          <li class="mb-3">
+                            <i class="fas fa-calculator me-2"></i>نسبة ثابتة 10%
+                            من قيمة المبيعات
+                          </li>
+                          <li class="mb-3">
+                            <i class="fas fa-chart-line me-2"></i>مكافآت إضافية
+                            عند تحقيق أهداف المبيعات
+                          </li>
+                          <li class="mb-3">
+                            <i class="fas fa-clock me-2"></i>فترة صلاحية الكوكيز
+                            30 يوماً
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievements Tab -->
+      <div
+        class="tab-pane fade"
+        id="pills-achievements"
+        role="tabpanel"
+        aria-labelledby="pills-achievements-tab"
+      >
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-12 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="mb-4">الشهادات والإنجازات</h4>
+                  <!-- Certificates -->
+                  <div class="mb-4">
+                    <h5>شهادات التقدير</h5>
+                    <div class="row">
+                      <div class="col-md-4 mb-3">
+                        <div class="card">
+                          <div class="card-body text-center">
+                            <i class="fas fa-award fa-3x text-warning mb-3"></i>
+                            <h6>أفضل مسوق للشهر</h6>
+                            <p class="text-muted">يناير 2024</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card">
+                          <div class="card-body text-center">
+                            <i
+                              class="fas fa-trophy fa-3x text-success mb-3"
+                            ></i>
+                            <h6>تحقيق هدف المبيعات</h6>
+                            <p class="text-muted">الربع الرابع 2023</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card">
+                          <div class="card-body text-center">
+                            <i class="fas fa-medal fa-3x text-primary mb-3"></i>
+                            <h6>مسوق متميز</h6>
+                            <p class="text-muted">2023</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Performance Metrics -->
+                  <div>
+                    <h5>إنجازات الأداء</h5>
+                    <div class="row">
+                      <div class="col-md-6 mb-3">
+                        <div class="card bg-light">
+                          <div class="card-body">
+                            <h6>معدل التحويل</h6>
+                            <div class="progress mb-2">
+                              <div
+                                class="progress-bar"
+                                role="progressbar"
+                                style="width: 85%"
+                                aria-valuenow="85"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                              >
+                                85%
+                              </div>
+                            </div>
+                            <small class="text-muted"
+                              >أعلى من متوسط المسوقين بنسبة 15%</small
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <div class="card bg-light">
+                          <div class="card-body">
+                            <h6>رضا العملاء</h6>
+                            <div class="progress mb-2">
+                              <div
+                                class="progress-bar bg-success"
+                                role="progressbar"
+                                style="width: 92%"
+                                aria-valuenow="92"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                              >
+                                92%
+                              </div>
+                            </div>
+                            <small class="text-muted"
+                              >تقييم إيجابي من العملاء</small
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer-component></footer-component>
+
+    <!-- All Javascript files -->
+    <script src="../assets/js/jquery-3.7.1.min.js"></script>
+    <script src="../assets/js/boostrap.bundle.min.js"></script>
+    <script src="../assets/js/slick.min.js"></script>
+    <script src="../assets/js/countdown.js"></script>
+    <script src="../assets/js/counterup.min.js"></script>
+    <script src="../assets/js/marquee.min.js"></script>
+    <script src="../assets/js/jquery.magnific-popup.js"></script>
+    <script src="../assets/js/apexchart.js"></script>
+    <script src="../assets/js/main.js" type="module"></script>
+
+    <script src="../components/ar/header-ar.js"></script>
+    <script src="../components/ar/footer.js"></script>
+  </body>
+</html>

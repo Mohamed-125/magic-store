@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title -->
+  <title>        بع معنا | ماجيك ستور</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../assets/images/logo/favicon-two.png" />
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="../assets/css/fontawesome-all.min.css" />
+  <!-- Slick -->
+  <link rel="stylesheet" href="../assets/css/slick.css" />
+  <!-- magnific popup -->
+  <link rel="stylesheet" href="../assets/css/magnific-popup.css" />
+  <!-- line awesome -->
+  <link rel="stylesheet" href="../assets/css/line-awesome.min.css" />
+  <!-- Main css -->
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="../assets/css/arabic.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      
+ 
+      .form-container {
+        width: 90%;
+        margin-inline:auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+    .form-group {
+        margin: 15px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+
+    input,
+    select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+
+    label { font-weight: 600;}
+
+    .form-group:has(input[type='checkbox']) {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-direction: row;
+    }
+    .form-group:has(input[type='checkbox']) input {
+      width: 20px;
+      height: 20px;
+      accent-color: #392080;
+    }
+
+    .submit-button {
+        background-color: hsl(234, 100%, 7%);
+        color: white;
+        border: none;
+        padding: 15px;
+        width: 100%;
+        font-size: 1.1em;
+        font-weight: bold;
+      transition: .3s all ease;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .submit-button:hover {
+        background-color: #392080;
+    }
+
+    .panel { 
+      border-bottom: 1px solid #5029ba48;
+      padding-bottom: 30px
+    }
+  
+    </style>
+  </head>
+
+<body>
+
+  <header-component-ar></header-component-ar>
+  <!-- ==================== Header End Here ==================== -->
+  <!--========================== Banner Section Start ==========================-->
+  <section class="section  section-bg  z-index-1">
+    <img src="../assets/images/gradients/banner-gradient.png" alt="" class="bg--gradient white-version" />
+
+    <img src="../assets/images/shapes/element-moon1.png" alt="" class="element one" />
+    <img src="../assets/images/shapes/element-moon2.png" alt="" class="element two" />
+
+    <div class="container container-two">
+      <h1 class="section-heading heading" > بع معنا
+    </h1>
+    <form class="form-container">
+  
+      <!-- Section 1: Personal Information -->
+      <h2 class="accordion">القسم 1: معلومات شخصية</h2>
+      <div class="panel">
+          <div class="form-group">
+              <label for="name">الاسم الكامل:</label>
+              <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+              <label for="email">البريد الإلكتروني:</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label for="phone">رقم الجوال:</label>
+              <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-group">
+              <label for="location">الدولة/المدينة:</label>
+              <input type="text" id="location" name="location" required>
+          </div>
+      </div>
+  
+      <!-- Section 2: Store Information -->
+      <h2 class="accordion">القسم 2: معلومات المتجر</h2>
+      <div class="panel">
+          <div class="form-group">
+              <label for="storeName">اسم المتجر:</label>
+              <input type="text" id="storeName" name="storeName" required>
+          </div>
+          <div class="form-group">
+              <label for="productType">نوع المنتجات الرقمية:</label>
+              <select id="productType" name="productType">
+            <option selected value="">اختر نوع المنتجات الرقميه</option>
+
+                  <option>تراخيص البرامج</option>
+                  <option>الكتب</option>
+                  <option>الدورات التدريبية</option>
+              </select>
+          </div>
+          <div class="form-group">
+              <label for="storeDescription">وصف المتجر:</label>
+              <input type="text" id="storeDescription" name="storeDescription" required>
+          </div>
+          <div class="form-group">
+              <label for="logo">شعار المتجر:</label>
+              <input type="file" id="logo" name="logo">
+          </div>
+      </div>
+  
+      <!-- Section 3: Product and Service Information -->
+      <h2 class="accordion">القسم 3: معلومات المنتجات والخدمات</h2>
+      <div class="panel">
+          <div class="form-group">
+              <label for="categories">فئات المنتجات:</label>
+              <input type="text" id="categories" name="categories" required>
+          </div>
+          <div class="form-group">
+              <label for="licenses">التراخيص المتاحة:</label>
+              <input type="text" id="licenses" name="licenses">
+          </div>
+          <div class="form-group">
+              <label for="courses">الدورات التدريبية:</label>
+              <input type="text" id="courses" name="courses">
+          </div>
+      </div>
+  
+      <!-- Section 4: Payment Settings -->
+      <h2 class="accordion">القسم 4: إعدادات الدفع</h2>
+      <div class="panel">
+          <div class="form-group">
+              <label for="bankAccount">الحساب البنكي:</label>
+              <input type="text" id="bankAccount" name="bankAccount" required>
+          </div>
+          <div class="form-group">
+              <label for="wallet">المحفظة الإلكترونية (إن وجدت):</label>
+              <input type="text" id="wallet" name="wallet">
+          </div>
+          <div class="form-group">
+            <label for="currency">العملة المفضلة:</label>
+            <select id="currencySelect" required name="currency">
+              <option selected value="">اختر عمله</option>
+                <option value="sar">SAR</option>
+                <option value="kar">KAR</option>
+                <option value="aed">AED</option>
+                <option value="qar">QAR</option>
+            </select>
+        </div>
+      </div>
+  
+      <!-- Section 5: Official Documents -->
+      <h2 class="accordion">القسم 5: الوثائق الرسمية</h2>
+      <div class="panel">
+          <div class="form-group">
+              <label for="license">رخصة تجارية:</label>
+              <input type="file" id="license" name="license">
+          </div>
+          <div class="form-group">
+              <label for="idCard">الهوية الوطنية:</label>
+              <input type="file" id="idCard" name="idCard">
+          </div>
+      </div>
+  
+      <!-- Section 6: Terms Agreement -->
+      <h2 class="accordion">القسم 6: الموافقة على الشروط</h2>
+      <div class="panel">
+          <div class="form-group">
+              <input type="checkbox" id="terms" name="terms" required>
+              <label for="terms">أوافق على الشروط والأحكام</label>
+          </div>
+          <div class="form-group">
+              <input type="checkbox" id="commissionPolicy" name="commissionPolicy" required>
+              <label for="commissionPolicy">أوافق على سياسة العمولة</label>
+          </div>
+      </div>
+  
+      <!-- Submit Button -->
+      <button type="submit" class="submit-button">إرسال الطلب</button>
+      
+    </form>
+    </div>
+  </section>
+  <!--========================== Banner Section End ==========================-->
+
+  <!-- ======================== popular Section Start =========================== -->
+  
+
+  <footer-component></footer-component>
+</main>
+
+  <!-- Jquery js -->
+  <script src="../assets/js/jquery-3.7.1.min.js"></script>
+  <!-- Bootstrap Bundle Js -->
+  <script src="../assets/js/boostrap.bundle.min.js"></script>
+  <!-- CountDown -->
+  <script src="../assets/js/countdown.js"></script>
+  <!-- counter up -->
+  <script src="../assets/js/counterup.min.js"></script>
+  <!-- Slick js -->
+  <script src="../assets/js/slick.min.js"></script>
+  <!-- magnific popup -->
+  <script src="../assets/js/jquery.magnific-popup.js"></script>
+  <!-- apex chart -->
+  <script src="../assets/js/apexchart.js"></script>
+  <!-- marquee -->
+  <script src="../assets/js/marquee.min.js"></script>
+
+  <script src='../components/ar/header-ar.js'></script>
+  <script src='../components/ar/footer.js'></script>
+
+
+
+  <script src="../assets/js/main.js" type="module"></script>
+</body>
+
+</html>

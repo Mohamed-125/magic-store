@@ -1,0 +1,1688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>ملف العميل الشخصي</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/images/logo/favicon-two.png" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="../assets/css/fontawesome-all.min.css" />
+    <!-- Slick -->
+    <link rel="stylesheet" href="../assets/css/slick.css" />
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css" />
+    <!-- line awesome -->
+    <link rel="stylesheet" href="../assets/css/line-awesome.min.css" />
+    <!-- Main css -->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/arabic.css" />
+
+    <link
+      href="https://cdn.quilljs.com/1.3.6/quill.snow.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header-component-ar></header-component-ar>
+    <!-- ======================== Breadcrumb Three Section Start ===================== -->
+    <section
+      class="breadcrumb-three section-bg position-relative z-index-1 overflow-hidden"
+    >
+      <img
+        src="../assets/images/gradients/breadcrumb-gradient-bg.png"
+        alt=""
+        class="bg--gradient"
+      />
+      <img
+        src="../assets/images/shapes/element-moon3.png"
+        alt=""
+        class="element one"
+      />
+      <img
+        src="../assets/images/shapes/element-moon1.png"
+        alt=""
+        class="element three"
+      />
+      <div class="container container-two">
+        <div class="breadcrumb-three-content border-bottom border-color">
+          <div class="breadcrumb-three-content__inner">
+            <div class="breadcrumb-three-content__left">
+              <div class="flx-between align-items-end gap-3">
+                <div class="author-profile d-flex gap-2 flex-column">
+                  <div class="author-profile__thumb flex-shrink-0">
+                    <img
+                      src="../assets/images/thumbs/author-profile.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="d-flex align-items-end flex-wrap gap-4">
+                    <div class="author-profile__info">
+                      <h5 class="author-profile__name mb-2">احمد محمد</h5>
+                      <span class="author-profile__membership font-14">
+                        عضو من سنه 2020</span
+                      >
+                      <br />
+                      <span class="author-profile__membership font-14">
+                        البلد : السعوديه
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="breadcrumb-three-content__right flex-shrink-0 d-flex align-items-center gap-4 gap-lg-5"
+                >
+                  <div class="sales">
+                    <span class="sales__text mb-1 text-heading fw-500"
+                      >البريد الألكتروني : info@gmail.com</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul
+            class="nav tab-bordered nav-pills mt-4"
+            id="pills-tabbs"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-portfolio-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-portfolio"
+                type="button"
+                role="tab"
+                aria-controls="pills-portfolio"
+                aria-selected="true"
+              >
+                أداره الطلبات
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-courses-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-courses"
+                type="button"
+                role="tab"
+                aria-controls="pills-courses"
+                aria-selected="false"
+              >
+                إدارة الدورات التدريبية
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-Followingg-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-Followingg"
+                type="button"
+                role="tab"
+                aria-controls="pills-Followingg"
+                aria-selected="false"
+              >
+                العمولة والمدفوعات
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-Settingss-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-Settingss"
+                type="button"
+                role="tab"
+                aria-controls="pills-Settingss"
+                aria-selected="false"
+              >
+                إعدادات الحساب
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-hiddenItem-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-hiddenItem"
+                type="button"
+                role="tab"
+                aria-controls="pills-hiddenItem"
+                aria-selected="false"
+              >
+                قائمة الرغبات
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-refunded-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-refunded"
+                type="button"
+                role="tab"
+                aria-controls="pills-refunded"
+                aria-selected="false"
+              >
+                إعدادات التنبيهات والإشعارات
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-earning-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-earning"
+                type="button"
+                role="tab"
+                aria-controls="pills-earning"
+                aria-selected="false"
+              >
+                صفحة العروض والكوبونات
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-statement-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-statement"
+                type="button"
+                role="tab"
+                aria-controls="pills-statement"
+                aria-selected="false"
+              >
+                الطلبات والمبيعات
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-review-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-review"
+                type="button"
+                role="tab"
+                aria-controls="pills-review"
+                aria-selected="false"
+              >
+                التقييمات والمراجعات
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- ======================== Breadcrumb Three Section End ===================== -->
+    <!-- ===================== Profile Section Start ============================== -->
+    <section class="profile pt-5 padding-b-120">
+      <div class="container container-two">
+        <div class="tab-content" id="pills-tabb">
+          <div
+            class="tab-pane fade show active"
+            id="pills-portfolio"
+            role="tabpanel"
+            aria-labelledby="pills-portfolio-tab"
+            tabindex="0"
+          >
+            <div class="container">
+              <h2>إدارة الطلبات</h2>
+
+              <!-- Active Orders Section -->
+              <div class="section">
+                <h3>الطلبات النشطة</h3>
+                <div class="table-responsive">
+                  <table class="table table-responsive">
+                    <thead>
+                      <tr>
+                        <th>رقم الطلب</th>
+                        <th>المنتج</th>
+                        <th>السعر</th>
+                        <th>تاريخ الشراء</th>
+                        <th>حالة الطلب</th>
+                        <th>الإجراءات</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>12345</td>
+                        <td>ترخيص Windows 10</td>
+                        <td>200 ريال سعودي</td>
+                        <td>2024-11-01</td>
+                        <td>قيد التنفيذ</td>
+                        <td>
+                          <button class="btn btn-main">تفاصيل</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>67890</td>
+                        <td>دورة تصميم مواقع</td>
+                        <td>500 ريال سعودي</td>
+                        <td>2024-10-15</td>
+                        <td>تم الشحن</td>
+                        <td>
+                          <button class="btn btn-main">تفاصيل</button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <!-- Previous Orders Section -->
+                <div class="section">
+                  <h3>الطلبات السابقة</h3>
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>رقم الطلب</th>
+                          <th>المنتج</th>
+                          <th>السعر</th>
+                          <th>تاريخ الشراء</th>
+                          <th>الحالة</th>
+                          <th>الإجراءات</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>54321</td>
+                          <td>ترخيص Adobe Photoshop</td>
+                          <td>300 ريال سعودي</td>
+                          <td>2024-09-30</td>
+                          <td>مكتمل</td>
+                          <td>
+                            <button class="btn btn-main">تفاصيل</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>98765</td>
+                          <td>كتاب إلكتروني: البرمجة للمبتدئين</td>
+                          <td>100 ريال سعودي</td>
+                          <td>2024-08-20</td>
+                          <td>مكتمل</td>
+                          <td>
+                            <button class="btn btn-main">تفاصيل</button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <!-- Order Details Section -->
+                <div class="section">
+                  <h3>تفاصيل الطلب</h3>
+                  <div>
+                    <p><strong>رقم الطلب:</strong> 12345</p>
+                    <p><strong>المنتج:</strong> ترخيص Windows 10</p>
+                    <p><strong>السعر:</strong> 200 ريال سعودي</p>
+                    <p><strong>تاريخ الشراء:</strong> 2024-11-01</p>
+                    <p><strong>حالة الطلب:</strong> قيد التنفيذ</p>
+                    <p>
+                      <strong>روابط التحميل:</strong>
+                      <a href="#">تحميل المنتج</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="pills-bestRating"
+              role="tabpanel"
+              aria-labelledby="pills-bestRating-tab"
+              tabindex="0"
+            >
+              <div class="row gy-4 list-grid-wrapper">
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                  <div class="product-item">
+                    <div class="product-item__thumb d-flex">
+                      <a href="product-details.html" class="link w-100">
+                        <img
+                          src="../assets/images/thumbs/product-img1.png"
+                          alt=""
+                          class="cover-img"
+                        />
+                      </a>
+                      <button type="button" class="product-item__wishlist">
+                        <i class="fas fa-heart"></i>
+                      </button>
+                    </div>
+                    <div class="product-item__content">
+                      <h6 class="product-item__title">
+                        <a href="product-details.html" class="link">
+                          - ترخيص أصلي لنظام Windows 10
+                        </a>
+                      </h6>
+                      <div class="product-item__info flx-between gap-2">
+                        <div class="flx-align gap-2">
+                          <h6 class="product-item__price mb-0">
+                            200 ريال سعودي
+                          </h6>
+                        </div>
+                      </div>
+                      <div class="product-item__bottom flx-between gap-2">
+                        <div>
+                          <div class="d-flex align-items-center gap-1">
+                            <ul class="star-rating">
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                            </ul>
+                            <span
+                              class="star-rating__text text-heading fw-500 font-14"
+                            >
+                              (16)</span
+                            >
+                          </div>
+                        </div>
+                        <a
+                          href="product-details.html"
+                          class="btn btn-outline-light btn-sm pill"
+                          >عرض المزيد</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                  <div class="product-item">
+                    <div class="product-item__thumb d-flex">
+                      <a href="product-details.html" class="link w-100">
+                        <img
+                          src="../assets/images/thumbs/product-img1.png"
+                          alt=""
+                          class="cover-img"
+                        />
+                      </a>
+                      <button type="button" class="product-item__wishlist">
+                        <i class="fas fa-heart"></i>
+                      </button>
+                    </div>
+                    <div class="product-item__content">
+                      <h6 class="product-item__title">
+                        <a href="product-details.html" class="link">
+                          - ترخيص أصلي لنظام Windows 10
+                        </a>
+                      </h6>
+                      <div class="product-item__info flx-between gap-2">
+                        <div class="flx-align gap-2">
+                          <h6 class="product-item__price mb-0">
+                            200 ريال سعودي
+                          </h6>
+                        </div>
+                      </div>
+                      <div class="product-item__bottom flx-between gap-2">
+                        <div>
+                          <div class="d-flex align-items-center gap-1">
+                            <ul class="star-rating">
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                            </ul>
+                            <span
+                              class="star-rating__text text-heading fw-500 font-14"
+                            >
+                              (16)</span
+                            >
+                          </div>
+                        </div>
+                        <a
+                          href="product-details.html"
+                          class="btn btn-outline-light btn-sm pill"
+                          >عرض المزيد</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                  <div class="product-item">
+                    <div class="product-item__thumb d-flex">
+                      <a href="product-details.html" class="link w-100">
+                        <img
+                          src="../assets/images/thumbs/product-img1.png"
+                          alt=""
+                          class="cover-img"
+                        />
+                      </a>
+                      <button type="button" class="product-item__wishlist">
+                        <i class="fas fa-heart"></i>
+                      </button>
+                    </div>
+                    <div class="product-item__content">
+                      <h6 class="product-item__title">
+                        <a href="product-details.html" class="link">
+                          - ترخيص أصلي لنظام Windows 10
+                        </a>
+                      </h6>
+                      <div class="product-item__info flx-between gap-2">
+                        <div class="flx-align gap-2">
+                          <h6 class="product-item__price mb-0">
+                            200 ريال سعودي
+                          </h6>
+                        </div>
+                      </div>
+                      <div class="product-item__bottom flx-between gap-2">
+                        <div>
+                          <div class="d-flex align-items-center gap-1">
+                            <ul class="star-rating">
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                            </ul>
+                            <span
+                              class="star-rating__text text-heading fw-500 font-14"
+                            >
+                              (16)</span
+                            >
+                          </div>
+                        </div>
+                        <a
+                          href="product-details.html"
+                          class="btn btn-outline-light btn-sm pill"
+                          >عرض المزيد</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Pagination Start -->
+              <nav aria-label="Page navigation example">
+                <ul class="pagination common-pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">4</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">5</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link flx-align gap-2 flex-nowrap" href="#"
+                      >Next
+                      <span class="icon line-height-1 font-20"
+                        ><i class="las la-arrow-right"></i
+                      ></span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- Pagination End -->
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="pills-bestSelling"
+              role="tabpanel"
+              aria-labelledby="pills-bestSelling-tab"
+              tabindex="0"
+            >
+              <div class="row gy-4 list-grid-wrapper">
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                  <div class="product-item">
+                    <div class="product-item__thumb d-flex">
+                      <a href="product-details.html" class="link w-100">
+                        <img
+                          src="../assets/images/thumbs/product-img1.png"
+                          alt=""
+                          class="cover-img"
+                        />
+                      </a>
+                      <button type="button" class="product-item__wishlist">
+                        <i class="fas fa-heart"></i>
+                      </button>
+                    </div>
+                    <div class="product-item__content">
+                      <h6 class="product-item__title">
+                        <a href="product-details.html" class="link">
+                          - ترخيص أصلي لنظام Windows 10
+                        </a>
+                      </h6>
+                      <div class="product-item__info flx-between gap-2">
+                        <div class="flx-align gap-2">
+                          <h6 class="product-item__price mb-0">
+                            200 ريال سعودي
+                          </h6>
+                        </div>
+                      </div>
+                      <div class="product-item__bottom flx-between gap-2">
+                        <div>
+                          <div class="d-flex align-items-center gap-1">
+                            <ul class="star-rating">
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                            </ul>
+                            <span
+                              class="star-rating__text text-heading fw-500 font-14"
+                            >
+                              (16)</span
+                            >
+                          </div>
+                        </div>
+                        <a
+                          href="product-details.html"
+                          class="btn btn-outline-light btn-sm pill"
+                          >عرض المزيد</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                  <div class="product-item">
+                    <div class="product-item__thumb d-flex">
+                      <a href="product-details.html" class="link w-100">
+                        <img
+                          src="../assets/images/thumbs/product-img1.png"
+                          alt=""
+                          class="cover-img"
+                        />
+                      </a>
+                      <button type="button" class="product-item__wishlist">
+                        <i class="fas fa-heart"></i>
+                      </button>
+                    </div>
+                    <div class="product-item__content">
+                      <h6 class="product-item__title">
+                        <a href="product-details.html" class="link">
+                          - ترخيص أصلي لنظام Windows 10
+                        </a>
+                      </h6>
+                      <div class="product-item__info flx-between gap-2">
+                        <div class="flx-align gap-2">
+                          <h6 class="product-item__price mb-0">
+                            200 ريال سعودي
+                          </h6>
+                        </div>
+                      </div>
+                      <div class="product-item__bottom flx-between gap-2">
+                        <div>
+                          <div class="d-flex align-items-center gap-1">
+                            <ul class="star-rating">
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                            </ul>
+                            <span
+                              class="star-rating__text text-heading fw-500 font-14"
+                            >
+                              (16)</span
+                            >
+                          </div>
+                        </div>
+                        <a
+                          href="product-details.html"
+                          class="btn btn-outline-light btn-sm pill"
+                          >عرض المزيد</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                  <div class="product-item">
+                    <div class="product-item__thumb d-flex">
+                      <a href="product-details.html" class="link w-100">
+                        <img
+                          src="../assets/images/thumbs/product-img1.png"
+                          alt=""
+                          class="cover-img"
+                        />
+                      </a>
+                      <button type="button" class="product-item__wishlist">
+                        <i class="fas fa-heart"></i>
+                      </button>
+                    </div>
+                    <div class="product-item__content">
+                      <h6 class="product-item__title">
+                        <a href="product-details.html" class="link">
+                          - ترخيص أصلي لنظام Windows 10
+                        </a>
+                      </h6>
+                      <div class="product-item__info flx-between gap-2">
+                        <div class="flx-align gap-2">
+                          <h6 class="product-item__price mb-0">
+                            200 ريال سعودي
+                          </h6>
+                        </div>
+                      </div>
+                      <div class="product-item__bottom flx-between gap-2">
+                        <div>
+                          <div class="d-flex align-items-center gap-1">
+                            <ul class="star-rating">
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                              <li class="star-rating__item font-11">
+                                <i class="fas fa-star"></i>
+                              </li>
+                            </ul>
+                            <span
+                              class="star-rating__text text-heading fw-500 font-14"
+                            >
+                              (16)</span
+                            >
+                          </div>
+                        </div>
+                        <a
+                          href="product-details.html"
+                          class="btn btn-outline-light btn-sm pill"
+                          >عرض المزيد</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Pagination Start -->
+              <nav aria-label="Page navigation example">
+                <ul class="pagination common-pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">4</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">5</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link flx-align gap-2 flex-nowrap" href="#"
+                      >Next
+                      <span class="icon line-height-1 font-20"
+                        ><i class="las la-arrow-right"></i
+                      ></span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- Pagination End -->
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-courses"
+          role="tabpanel"
+          aria-labelledby="pills-courses-tab"
+          tabindex="0"
+        >
+          <div class="container">
+            <h2>المنتجات الرقمية والتحديثات</h2>
+
+            <!-- Available Products Section -->
+
+            <div class="section">
+              <h3>المنتجات المتاحة للتحميل</h3>
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>اسم المنتج</th>
+                      <th>رابط التحميل</th>
+                      <th>حالة الترخيص</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>برنامج تحرير الصور</td>
+                      <td><a href="download-link.html">تحميل المنتج</a></td>
+                      <td>نشط</td>
+                    </tr>
+                    <tr>
+                      <td>دليل المبرمج</td>
+                      <td><a href="download-link.html">تحميل المنتج</a></td>
+                      <td>مرخص لجهازين</td>
+                    </tr>
+                    <tr>
+                      <td>مجموعة خطوط عربية</td>
+                      <td><a href="download-link.html">تحميل المنتج</a></td>
+                      <td>منتهي</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- License Information Section -->
+            <div class="section table-responsive">
+              <h3>حالة التراخيص</h3>
+              <table class="table table-responsive">
+                <thead>
+                  <tr>
+                    <th>اسم المنتج</th>
+                    <th>عدد الأجهزة المتبقية</th>
+                    <th>حالة التفعيل</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>برنامج تحرير الصور</td>
+                    <td>1 جهاز</td>
+                    <td>نشط</td>
+                  </tr>
+                  <tr>
+                    <td>دليل المبرمج</td>
+                    <td>2 أجهزة</td>
+                    <td>نشط</td>
+                  </tr>
+                  <tr>
+                    <td>مجموعة خطوط عربية</td>
+                    <td>0 أجهزة</td>
+                    <td>منتهي</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Product Updates Section -->
+            <div class="section">
+              <h3>تحديثات المنتجات</h3>
+              <div class="notification">
+                تم إصدار تحديث جديد لبرنامج تحرير الصور -
+                <a href="update-link.html">عرض التحديث</a>
+              </div>
+              <div class="notification">
+                تم إضافة مميزات جديدة إلى دليل المبرمج -
+                <a href="update-link.html">عرض المميزات</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-Followingg"
+          role="tabpanel"
+          aria-labelledby="pills-Followingg-tab"
+          tabindex="0"
+        >
+          <div class="reviews-page">
+            <h2 style="margin-bottom: 70px">صفحة التقييمات والمراجعات</h2>
+
+            <!-- Section for Customer Reviews -->
+            <section class="customer-reviews">
+              <h3>التقييمات التي قدمها العميل</h3>
+              <table class="table table-responsive">
+                <thead>
+                  <tr>
+                    <th>اسم المنتج</th>
+                    <th>رابط التحميل</th>
+                    <th>حالة الترخيص</th>
+                    <th>التقييم</th>
+                    <th>إجراءات</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>برنامج تحرير الصور</td>
+                    <td><a href="download-link.html">تحميل المنتج</a></td>
+                    <td>نشط</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                    <td>
+                      <a href="edit-link.html" class="btn btn-black">تعديل</a>
+                      <a href="delete-link.html" class="btn btn-danger">حذف</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>دليل المبرمج</td>
+                    <td><a href="download-link.html">تحميل المنتج</a></td>
+                    <td>مرخص لجهازين</td>
+                    <td>⭐⭐⭐⭐</td>
+                    <td>
+                      <a href="edit-link.html" class="btn btn-black">تعديل</a>
+                      <a href="delete-link.html" class="btn btn-danger">حذف</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>مجموعة خطوط عربية</td>
+                    <td><a href="download-link.html">تحميل المنتج</a></td>
+                    <td>منتهي</td>
+                    <td>⭐⭐⭐</td>
+                    <td>
+                      <a href="edit-link.html" class="btn btn-black">تعديل</a>
+                      <a href="delete-link.html" class="btn btn-danger">حذف</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+
+            <!-- Section for Favorite Reviews -->
+            <section class="favorite-reviews">
+              <h3>التقييمات المفضلة</h3>
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>اسم المنتج</th>
+                      <th>رابط التحميل</th>
+                      <th>حالة الترخيص</th>
+                      <th>التقييم</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>برنامج تحرير الصور</td>
+                      <td><a href="download-link.html">تحميل المنتج</a></td>
+                      <td>نشط</td>
+                      <td>⭐⭐⭐⭐⭐</td>
+                      <td>
+                        <a href="edit-link.html" class="btn btn-black">تعديل</a>
+                        <a href="delete-link.html" class="btn btn-danger"
+                          >حذف</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>دليل المبرمج</td>
+                      <td><a href="download-link.html">تحميل المنتج</a></td>
+                      <td>مرخص لجهازين</td>
+                      <td>⭐⭐⭐⭐</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-Settingss"
+          role="tabpanel"
+          aria-labelledby="pills-Settingss-tab"
+          tabindex="0"
+        >
+          <!-- ================== Setting Section Start ====================== -->
+          <div class="row gy-4">
+            <div class="col-lg-4 pe-xl-5">
+              <div class="setting-sidebar">
+                <ul class="setting-sidebar-list">
+                  <li class="setting-sidebar-list__item">
+                    <a
+                      href="#personalInfo"
+                      class="setting-sidebar-list__link active"
+                    >
+                      معلومات الحساب الشخصية
+                    </a>
+                  </li>
+
+                  <li class="setting-sidebar-list__item">
+                    <a
+                      href="#paymentSettings"
+                      class="setting-sidebar-list__link"
+                    >
+                      إعدادات الدفع
+                    </a>
+                  </li>
+
+                  <li class="setting-sidebar-list__item">
+                    <a
+                      href="#securitySettings"
+                      class="setting-sidebar-list__link"
+                    >
+                      إعدادات الأمان
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div
+                class="setting-content"
+                data-bs-spy="scroll"
+                data-bs-target="#sidebar-scroll-spy"
+              >
+                <!-- Personal Account Information Section -->
+                <div
+                  class="card common-card border border-gray-five overflow-hidden mb-24"
+                  id="personalInfo"
+                >
+                  <div class="card-header">
+                    <h6 class="title">معلومات الحساب الشخصية</h6>
+                  </div>
+                  <div class="card-body">
+                    <div class="row gy-3">
+                      <div class="col-sm-6 col-xs-6">
+                        <label for="userName" class="form-label">الاسم</label>
+                        <input
+                          type="text"
+                          class="common-input common-input--md border--color-dark bg--white"
+                          id="userName"
+                        />
+                      </div>
+                      <div class="col-sm-6 col-xs-6">
+                        <label for="email" class="form-label"
+                          >البريد الإلكتروني</label
+                        >
+                        <input
+                          type="email"
+                          class="common-input common-input--md border--color-dark bg--white"
+                          id="email"
+                        />
+                      </div>
+                      <div class="col-sm-12">
+                        <label for="address" class="form-label">العنوان</label>
+                        <input
+                          type="text"
+                          class="common-input common-input--md border--color-dark bg--white"
+                          id="address"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Payment Settings Section -->
+                <div
+                  class="card common-card border border-gray-five overflow-hidden mb-24"
+                  id="paymentSettings"
+                >
+                  <div class="card-header">
+                    <h6 class="title">إعدادات الدفع</h6>
+                  </div>
+                  <div class="card-body">
+                    <form
+                      class="form-container"
+                      style="
+                        width: 100%;
+                        box-shadow: none;
+                        padding: 0px;
+                        margin-bottom: 0px;
+                      "
+                    >
+                      <div class="form-group">
+                        <label for="cardName">اسم صاحب البطاقة:</label>
+                        <input
+                          type="text"
+                          id="cardName"
+                          name="cardName"
+                          placeholder="أدخل اسم صاحب البطاقة"
+                          required
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="cardNumber">رقم البطاقة:</label>
+                        <input
+                          type="number"
+                          id="cardNumber"
+                          name="cardNumber"
+                          placeholder="أدخل رقم البطاقة"
+                          required
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="expiryDate">تاريخ انتهاء الصلاحية:</label>
+                        <input
+                          type="text"
+                          id="expiryDate"
+                          name="expiryDate"
+                          placeholder="MM/YY"
+                          required
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="cvv">رمز الأمان (CVV):</label>
+                        <input
+                          type="number"
+                          id="cvv"
+                          name="cvv"
+                          placeholder="أدخل رمز الأمان"
+                          required
+                        />
+                      </div>
+                    </form>
+                  </div>
+                </div>
+
+                <!-- Security Settings Section -->
+                <div
+                  class="card common-card border border-gray-five overflow-hidden mb-24"
+                  id="securitySettings"
+                >
+                  <div class="card-header">
+                    <h6 class="title">إعدادات الأمان</h6>
+                  </div>
+                  <div class="card-body">
+                    <div class="row gy-3">
+                      <div class="col-sm-6 col-xs-6">
+                        <label for="password" class="form-label"
+                          >كلمة المرور الجديدة</label
+                        >
+                        <input
+                          type="password"
+                          class="common-input common-input--md border--color-dark bg--white"
+                          id="password"
+                        />
+                      </div>
+                      <div class="col-sm-6 col-xs-6">
+                        <label for="confirmPassword" class="form-label"
+                          >تأكيد كلمة المرور</label
+                        >
+                        <input
+                          type="password"
+                          class="common-input common-input--md border--color-dark bg--white"
+                          id="confirmPassword"
+                        />
+                      </div>
+                      <div class="col-sm-12 d-flex align-items-center gap-2">
+                        <label
+                          for="twoFactorAuth"
+                          class="form-label mb-0"
+                          style=""
+                          >تفعيل المصادقة الثنائية</label
+                        >
+                        <input
+                          type="checkbox"
+                          style="width: 20px; height: 20px"
+                          id="twoFactorAuth"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button type="button" class="btn w-100 btn-main btn-md">
+                  حفظ
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- ================== Setting Section End ====================== -->
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-hiddenItem"
+          role="tabpanel"
+          aria-labelledby="pills-hiddenItem-tab"
+          tabindex="0"
+        >
+          <div class="row gy-4">
+            <div class="col-lg-12">
+              <div class="wishlist-content">
+                <div class="wishlist-header">
+                  <h2 class="title">قائمة الرغبات</h2>
+                </div>
+                <div class="table-responsive">
+                  <table class="table wishlist-table">
+                    <thead>
+                      <tr>
+                        <th>المنتج</th>
+                        <th>السعر</th>
+                        <th>الإجراءات</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>اسم المنتج 1</td>
+                        <td>100 ريال</td>
+                        <td>
+                          <button class="btn btn-black btn-sm">
+                            إضافة إلى السلة
+                          </button>
+                          <button class="btn btn-danger btn-sm">إزالة</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>اسم المنتج 2</td>
+                        <td>250 ريال</td>
+                        <td>
+                          <button class="btn btn-black btn-sm">
+                            إضافة إلى السلة
+                          </button>
+                          <button class="btn btn-danger btn-sm">إزالة</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>اسم المنتج 3</td>
+                        <td>150 ريال</td>
+                        <td>
+                          <button class="btn btn-black btn-sm">
+                            إضافة إلى السلة
+                          </button>
+                          <button class="btn btn-danger btn-sm">إزالة</button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-refunded"
+          role="tabpanel"
+          aria-labelledby="pills-refunded-tab"
+          tabindex="0"
+        >
+          <!-- =========================== Refund Section Start ========================= -->
+          <div class="row gy-4">
+            <div class="col-lg-12">
+              <div class="notification-settings-content">
+                <div class="settings-header">
+                  <h2 class="title">إعدادات التنبيهات والإشعارات</h2>
+                </div>
+                <form>
+                  <!-- Notification Settings Section -->
+                  <div
+                    class="card common-card border border-gray-five overflow-hidden mb-24"
+                  >
+                    <div class="card-header">
+                      <h6 class="title">إعدادات الإشعارات</h6>
+                    </div>
+                    <div class="card-body">
+                      <div class="form-group">
+                        <input type="checkbox" id="orderAlerts" />
+                        <label for="orderAlerts">تنبيهات الطلبات</label>
+                      </div>
+                      <div class="form-group">
+                        <input type="checkbox" id="promoAlerts" />
+                        <label for="promoAlerts">تنبيهات العروض</label>
+                      </div>
+                      <div class="form-group">
+                        <input type="checkbox" id="courseAlerts" />
+                        <label for="courseAlerts">تنبيهات الدورات</label>
+                      </div>
+                      <!-- Additional Notification Options -->
+                      <div class="form-group">
+                        <input type="checkbox" id="productStockAlerts" />
+                        <label for="productStockAlerts"
+                          >تنبيهات توفر المنتجات في المخزون</label
+                        >
+                      </div>
+                      <div class="form-group">
+                        <input type="checkbox" id="priceDropAlerts" />
+                        <label for="priceDropAlerts"
+                          >تنبيهات انخفاض الأسعار</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Email Notifications Section -->
+                  <div
+                    class="card common-card border border-gray-five overflow-hidden mb-24"
+                  >
+                    <div class="card-header">
+                      <h6 class="title">إشعارات عبر البريد الإلكتروني</h6>
+                    </div>
+                    <div class="card-body">
+                      <div class="form-group">
+                        <input type="checkbox" id="emailNotifications" />
+                        <label for="emailNotifications"
+                          >تمكين الإشعارات عبر البريد الإلكتروني</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Additional Suggested Settings -->
+                  <div
+                    class="card common-card border border-gray-five overflow-hidden mb-24"
+                  >
+                    <div class="card-header">
+                      <h6 class="title">إعدادات إضافية</h6>
+                    </div>
+                    <div class="card-body">
+                      <div class="form-group">
+                        <input type="checkbox" id="smsNotifications" />
+                        <label for="smsNotifications"
+                          >إشعارات عبر الرسائل النصية</label
+                        >
+                      </div>
+                      <div class="form-group">
+                        <input type="checkbox" id="pushNotifications" />
+                        <label for="pushNotifications"
+                          >إشعارات الدفع عبر التطبيق</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="submit" class="btn w-100 btn-main btn-md">
+                    حفظ
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- =========================== Refund Section End ========================= -->
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-earning"
+          role="tabpanel"
+          aria-labelledby="pills-earning-tab"
+          tabindex="0"
+        >
+          <!-- ========================= Earning Section Start ============================= -->
+          <div class="row gy-4">
+            <div class="offers-coupons-page">
+              <h2 class="title">صفحة العروض والكوبونات</h2>
+
+              <!-- قسم العروض المتاحة -->
+              <section class="available-offers">
+                <h3 class="section-title">العروض المتاحة</h3>
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>اسم المنتج</th>
+                        <th>وصف العرض</th>
+                        <th>نسبة الخصم</th>
+                        <th>المدة المتبقية</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>كاميرا رقمية</td>
+                        <td>خصم 20% على جميع الكاميرات الرقمية</td>
+                        <td>20%</td>
+                        <td>5 أيام</td>
+                      </tr>
+                      <tr>
+                        <td>سماعات لاسلكية</td>
+                        <td>
+                          عرض خاص على السماعات اللاسلكية - اشتري واحدة واحصل على
+                          الثانية بنصف السعر
+                        </td>
+                        <td>50%</td>
+                        <td>10 أيام</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+
+              <!-- قسم كوبونات الخصم -->
+              <section class="discount-coupons">
+                <h3 class="section-title">كوبونات الخصم</h3>
+                <div class="table-responsive">
+                  <table class="table table-responsive">
+                    <thead>
+                      <tr>
+                        <th>رمز الكوبون</th>
+                        <th>المنتج المستخدم</th>
+                        <th>نسبة الخصم</th>
+                        <th>تاريخ الاستخدام</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>OFF20</td>
+                        <td>حاسوب محمول</td>
+                        <td>20%</td>
+                        <td>12/11/2024</td>
+                      </tr>
+                      <tr>
+                        <td>SALE30</td>
+                        <td>هاتف ذكي</td>
+                        <td>30%</td>
+                        <td>08/11/2024</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+            </div>
+          </div>
+          <!-- ========================= Earning Section End ============================= -->
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-statement"
+          role="tabpanel"
+          aria-labelledby="pills-statement-tab"
+          tabindex="0"
+        >
+          <!-- ========================= Statement section start =========================== -->
+          <div class="row gy-4">
+            <div class="col-12">
+              <div class="card common-card border border-gray-five">
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>اسم الدورة</th>
+                          <th>روابط الوصول</th>
+                          <th>مدى التقدم</th>
+                          <th>إجراء</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>دورة تعلم البرمجة</td>
+                          <td>
+                            <a href="course-link-1.html" target="_blank"
+                              >الوصول للمحتوى</a
+                            >
+                          </td>
+                          <td>
+                            <div class="progress-bar-container">
+                              <div
+                                class="progress-bar"
+                                style="width: 75%"
+                              ></div>
+                              <div class="progress-percentage">75%</div>
+                            </div>
+                          </td>
+                          <td>
+                            <button class="btn-main btn">اسأل سؤال</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>دورة تصميم المواقع</td>
+                          <td>
+                            <a href="course-link-2.html" target="_blank"
+                              >الوصول للمحتوى</a
+                            >
+                          </td>
+                          <td>
+                            <div class="progress-bar-container">
+                              <div
+                                class="progress-bar"
+                                style="width: 50%"
+                              ></div>
+                              <div class="progress-percentage">50%</div>
+                            </div>
+                          </td>
+                          <td>
+                            <button class="btn-main btn">اسأل سؤال</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>دورة إدارة المشاريع</td>
+                          <td>
+                            <a href="course-link-3.html" target="_blank"
+                              >الوصول للمحتوى</a
+                            >
+                          </td>
+                          <td>
+                            <div class="progress-bar-container">
+                              <div
+                                class="progress-bar"
+                                style="width: 30%"
+                              ></div>
+                              <div class="progress-percentage">30%</div>
+                            </div>
+                          </td>
+                          <td>
+                            <button class="btn-main btn">اسأل سؤال</button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="flx-between gap-2">
+                      <div class="paginate-content flx-align flex-nowrap gap-3">
+                        <select class="select common-input py-2 px-3 w-auto">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                        </select>
+                        <span class="paginate-content__text fs-14"
+                          >Showing 1 - 10 of 100</span
+                        >
+                      </div>
+                      <nav aria-label="Page navigation example">
+                        <ul class="pagination common-pagination mt-0">
+                          <li class="page-item">
+                            <a class="page-link" href="#">1</a>
+                          </li>
+                          <li class="page-item active">
+                            <a class="page-link" href="#">2</a>
+                          </li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                          </li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">4</a>
+                          </li>
+                          <li class="page-item">
+                            <a
+                              class="page-link flx-align gap-2 flex-nowrap"
+                              href="#"
+                              >Next
+                              <span class="icon line-height-1 font-20"
+                                ><i class="las la-arrow-right"></i
+                              ></span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ========================= Statement section End =========================== -->
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-review"
+          role="tabpanel"
+          aria-labelledby="pills-review-tab"
+          tabindex="0"
+        >
+          <!-- ===================== Review Section Start ========================== -->
+          <div class="card common-card border border-gray-five">
+            <div class="card-body">
+              <h2>التقييمات والمراجعات</h2>
+              <style>
+                .review {
+                  border-bottom: 1px solid #ddd;
+                  padding: 15px 0;
+                  margin-top: 20px;
+                }
+                .review:last-child {
+                  border-bottom: none;
+                }
+                .star-rating {
+                  color: #ffc107;
+                }
+                .review-content {
+                  margin-top: 10px;
+                }
+                .review-actions {
+                  margin-top: 10px;
+                }
+                .reply-form {
+                  margin-top: 15px;
+                  display: none;
+                }
+              </style>
+              <script>
+                function toggleReplyForm(reviewId) {
+                  const replyForm = document.getElementById(
+                    `reply-form-${reviewId}`
+                  );
+                  replyForm.style.display =
+                    replyForm.style.display === "block" ? "none" : "block";
+                }
+              </script>
+
+              <!-- Review Item 1 -->
+              <div class="review">
+                <div class="review-header">
+                  <h4>اسم المنتج أو الدورة</h4>
+                  <div class="star-rating">★★★★☆</div>
+                </div>
+                <div class="review-content">
+                  <strong>احمد علي</strong>
+                </div>
+                <div class="review-content">
+                  <p>
+                    هذا التقييم مقدم من أحد العملاء. كان المنتج ممتازًا وسهل
+                    الاستخدام.
+                  </p>
+                </div>
+                <div class="review-actions">
+                  <button class="btn btn-main" onclick="toggleReplyForm(1)">
+                    الرد على المراجعة
+                  </button>
+                </div>
+                <div id="reply-form-1" class="reply-form">
+                  <form action="submit-reply" method="post">
+                    <label for="reply-text-1">اكتب ردك:</label>
+                    <textarea
+                      id="reply-text-1"
+                      name="replyText"
+                      rows="3"
+                      style="
+                        width: 100%;
+                        padding: 10px;
+                        border: 1px solid #ddd;
+                        border-radius: 4px;
+                      "
+                    ></textarea>
+                    <button type="submit" class="btn btn-primary">
+                      إرسال الرد
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ===================== Review Section End ========================== -->
+      </div>
+    </section>
+    <!-- ===================== Profile Section End ============================== -->
+
+    <footer-component> </footer-component>
+
+    <script src="../assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap Bundle Js -->
+    <script src="../assets/js/boostrap.bundle.min.js"></script>
+    <!-- CountDown -->
+    <script src="../assets/js/countdown.js"></script>
+    <!-- counter up -->
+    <script src="../assets/js/counterup.min.js"></script>
+    <!-- Slick js -->
+    <script src="../assets/js/slick.min.js"></script>
+    <!-- magnific popup -->
+    <script src="../assets/js/jquery.magnific-popup.js"></script>
+    <!-- apex chart -->
+    <script src="../assets/js/apexchart.js"></script>
+    <!-- marquee -->
+    <script src="../assets/js/marquee.min.js"></script>
+
+    <script src="../components/ar/header-ar.js"></script>
+    <script src="../components/ar/footer.js"></script>
+
+    <script src="../assets/js/main.js" type="module"></script>
+  </body>
+</html>
