@@ -11,22 +11,22 @@ class Footer extends HTMLElement {
   <div class="container container">
     <div class="brand-slider">
       <div class="brand-item d-flex align-items-center justify-content-center">
-        <img src="../../assets/images/thumbs/brand-img1.png" alt="" />
+        <img src="../assets/images/thumbs/brand-img1.png" alt="" />
       </div>
       <div class="brand-item d-flex align-items-center justify-content-center">
-        <img src="../../assets/images/thumbs/brand-img2.png" alt="" />
+        <img src="../assets/images/thumbs/brand-img2.png" alt="" />
       </div>
       <div class="brand-item d-flex align-items-center justify-content-center">
-        <img src="../../assets/images/thumbs/brand-img1.png" alt="" />
+        <img src="../assets/images/thumbs/brand-img1.png" alt="" />
       </div>
       <div class="brand-item d-flex align-items-center justify-content-center">
-        <img src="../../assets/images/thumbs/brand-img2.png" alt="" />
+        <img src="../assets/images/thumbs/brand-img2.png" alt="" />
       </div>
       <div class="brand-item d-flex align-items-center justify-content-center">
-        <img src="../../assets/images/thumbs/brand-img1.png" alt="" />
+        <img src="../assets/images/thumbs/brand-img1.png" alt="" />
       </div>
       <div class="brand-item d-flex align-items-center justify-content-center">
-        <img src="../../assets/images/thumbs/brand-img2.png" alt="" />
+        <img src="../assets/images/thumbs/brand-img2.png" alt="" />
       </div>
     </div>
   </div>
@@ -36,19 +36,19 @@ class Footer extends HTMLElement {
 
 <!-- ==================== Footer Start Here ==================== -->
 <footer class="footer-section">
-  <img src="../../assets/images/shapes/pattern.png" alt="" class="bg-pattern" />
+  <img src="../assets/images/shapes/pattern.png" alt="" class="bg-pattern" />
   <img
-    src="../../assets/images/shapes/element1.png"
+    src="../assets/images/shapes/element1.png"
     alt=""
     class="element one"
   />
   <img
-    src="../../assets/images/shapes/element2.png"
+    src="../assets/images/shapes/element2.png"
     alt=""
     class="element two"
   />
   <img
-    src="../../assets/images/gradients/footer-gradient.png"
+    src="../assets/images/gradients/footer-gradient.png"
     alt=""
     class="bg--gradient"
   />
@@ -59,7 +59,7 @@ class Footer extends HTMLElement {
         <div class="footer-widget">
           <div class="footer-widget__logo">
             <a href="index.html">
-              <img src="../../assets/images/logo/white-logo.png" alt=""
+              <img src="../assets/images/logo/white-logo.png" alt=""
             /></a>
           </div>
           <p class="footer-widget__desc">
