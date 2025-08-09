@@ -1,3 +1,4 @@
+const r = require("../ar/all-products");
 class Header extends HTMLElement {
   constructor() {
     super();
@@ -71,82 +72,73 @@ class Header extends HTMLElement {
       <div class="mobile-menu__inner ar-mobile-menu">
         <a href="index.html" class="mobile-menu__logo">
           <img
-            src="../../assets/images/logo/logo.png"
+            src="../assets/images/logo/logo.png"
             alt="Logo"
             class="white-version"
           />
           <img
-            src="../../assets/images/logo/white-logo-two.png"
+            src="../assets/images/logo/white-logo-two.png"
             alt="Logo"
             class="dark-version"
           />
         </a>
         <div class="mobile-menu__menu">
-          <button onclick="showLoginModal()" class="btn btn-main pill mb-3">
-            <span class="icon-left icon">
-              <i class="fas fa-sign-in-alt"></i>
-            </span>
-            تسجيل دخول
-          </button>
+         
           <ul class="nav-menu flx-align nav-menu--mobile">
             <li class="nav-menu__item">
-              <a href="../../ar/all-products.html" class="nav-menu__link">الرئيسية</a>
+              <a href="../ar/all-products.html" class="nav-menu__link">الرئيسية</a>
             </li>
             <li class="nav-menu__item">
-              <a href="../../ar/all-products.html" class="nav-menu__link">ويندوز</a>
+              <a href="../ar/all-products.html" class="nav-menu__link">ويندوز</a>
             </li>
             <li class="nav-menu__item">
-              <a href="../../ar/all-products.html" class="nav-menu__link"
+              <a href="../ar/all-products.html" class="nav-menu__link"
                 >برامج الكمبيوتر</a
               >
             </li>
             <li class="nav-menu__item">
-              <a href="../../ar/all-products.html" class="nav-menu__link">  تطبيقات الهاتف</a>
+              <a href="../ar/all-products.html" class="nav-menu__link">  تطبيقات الهاتف</a>
             </li>
             <li class="nav-menu__item">
-              <a href="../../ar/all-products.html" class="nav-menu__link"
+              <a href="../ar/all-products.html" class="nav-menu__link"
                 >   الاتصلات</a
               >
             </li>
             <li class="nav-menu__item">
-              <a href="../../ar/all-products.html" class="nav-menu__link"
+              <a href="../ar/all-products.html" class="nav-menu__link"
                 >   برامج الافلام والمسلسلات </a
               >
             </li>
             <li class="nav-menu__item">
-              <a href="../../ar/all-products.html" class="nav-menu__link">العاب</a>
+              <a href="../ar/all-products.html" class="nav-menu__link">العاب</a>
             </li>
             <li class="nav-menu__item">
-              <a href="../../ar/all-products.html" class="nav-menu__link">كتب الكترونيه</a>
+              <a href="../ar/all-products.html" class="nav-menu__link">كتب الكترونيه</a>
             </li>
             <li class="nav-menu__item">
-              <a href="../../ar/all-products.html" class="nav-menu__link">دورات تدريبه </a>
+              <a href="../ar/all-products.html" class="nav-menu__link">دورات تدريبه </a>
             </li>
             <li class="nav-menu__item">
-              <a href="../../ar/all-products.html" class="nav-menu__link"
+              <a href="../ar/all-products.html" class="nav-menu__link"
                 >بطاقات التسوق (هنقرستشن - امازون)</a
               >
             </li>
             <li class="nav-menu__item">
-                <a href="../../ar/agent-profile.html" class="nav-menu__link">حسابك الشخصي</a>
+                <a href="../ar/agent-profile.html" class="nav-menu__link">حسابك الشخصي</a>
               </li>
 
           <div
             class="header-right__inner  my-3 gap-1 d-flex flx-align"
           >
-            <a href="register.html" class="btn btn-main pill">
-              <span class="icon-left icon">
-                <img src="../../assets/images/icons/user.svg" alt="" /> </span
-              >أنشئ حسابك
-            </a>
+         
             <div class="language-select flx-align select-has-icon">
               <img
-                src="../../assets/images/icons/globe.svg"
+                src="../assets/images/icons/globe.svg"
                 alt=""
                 class="globe-icon white-version"
               />
               <img
-                src="../../assets/images/icons/globe-white.svg"
+                src="../assets/images/icons/globe-white.svg"
                 alt=""
                 class="globe-icon dark-version"
               />
@@ -177,7 +169,7 @@ class Header extends HTMLElement {
 
     <script>
     function showLoginModal() {
-      document.getElementById('loginModal').style.display = 'block';
+      document.getElementById('loginModal').style.display = 'flex';
       document.getElementById('chooseMethodPage').style.display = 'block';
       document.getElementById('emailLoginPage').style.display = 'none';
       document.getElementById('phoneLoginPage').style.display = 'none';
@@ -369,12 +361,12 @@ class Header extends HTMLElement {
                 class="header-right__button cart-btn position-relative"
               >
                 <img
-                  src="../../assets/images/icons/cart.svg"
+                  src="../assets/images/icons/cart.svg"
                   alt=""
                   class="white-version"
                 />
                 <img
-                  src="../../assets/images/icons/cart-white.svg"
+                  src="../assets/images/icons/cart-white.svg"
                   alt=""
                   class="dark-version"
                 />
@@ -389,12 +381,12 @@ class Header extends HTMLElement {
                   <span
                     class="slider text-black header-right__button white-version"
                   >
-                    <img src="../../assets/images/icons/sun.svg" alt="" />
+                    <img src="../assets/images/icons/sun.svg" alt="" />
                   </span>
                   <span
                     class="slider text-black header-right__button dark-version"
                   >
-                    <img src="../../assets/images/icons/moon.svg" alt="" />
+                    <img src="../assets/images/icons/moon.svg" alt="" />
                   </span>
                 </label>
               </div>
@@ -405,10 +397,10 @@ class Header extends HTMLElement {
 
             <div class="logo flex-1 justify-content-center d-flex">
               <a href="index.html" class="link white-version">
-                <img src="../../assets/images/logo/logo-two.png" alt="Logo" />
+                <img src="../assets/images/logo/logo-two.png" alt="Logo" />
               </a>
               <a href="index.html" class="link dark-version">
-                <img src="../../assets/images/logo/white-logo.png" alt="Logo" />
+                <img src="../assets/images/logo/white-logo.png" alt="Logo" />
               </a>
             </div>
             <!-- Logo End  -->
@@ -466,7 +458,7 @@ class Header extends HTMLElement {
 // Login Modal Functions
 function openLoginModal() {
   const modal = document.getElementById("loginModal");
-  modal.style.display = "block";
+  modal.style.display = "flex";
   setTimeout(() => {
     modal.classList.add("show");
   }, 10);
