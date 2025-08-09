@@ -1069,9 +1069,16 @@ import "./countdown.js";
 
   // ========================= Preloader Js Start =====================
   $(window).on("load", function () {
-    $(".loader-mask").fadeOut();
+    console.log("Page fully loaded. Fading out loader...");
+
+    // Optional: delay before fade
+    setTimeout(function () {
+      $(".loader-mask").fadeOut(800, function () {
+        $(this).remove(); // optional: remove from DOM
+      });
+    }, 300); // 200ms delay before fade starts
   });
-  // ========================= Preloader Js End=====================
+  // ========================= Preloader Js End =====================
 
   // ========================= Header Sticky Js Start ==============
 
@@ -1110,7 +1117,6 @@ const addMsg = () => {
     chatField.focus();
   }
 };
-
 const createBubble = (destination, message, owner = "own") => {
   const chatBubble = document.createElement("div");
   chatBubble.className = "bubble";
