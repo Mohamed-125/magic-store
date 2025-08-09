@@ -1,4 +1,3 @@
-const r = require("../ar/all-products");
 class Header extends HTMLElement {
   constructor() {
     super();
@@ -72,12 +71,10 @@ class Header extends HTMLElement {
       <div class="mobile-menu__inner ar-mobile-menu">
         <a href="index.html" class="mobile-menu__logo">
           <img
-            src="../assets/images/logo/logo.png"
             alt="Logo"
             class="white-version"
           />
           <img
-            src="../assets/images/logo/white-logo-two.png"
             alt="Logo"
             class="dark-version"
           />
@@ -86,45 +83,34 @@ class Header extends HTMLElement {
          
           <ul class="nav-menu flx-align nav-menu--mobile">
             <li class="nav-menu__item">
-              <a href="../ar/all-products.html" class="nav-menu__link">الرئيسية</a>
             </li>
             <li class="nav-menu__item">
-              <a href="../ar/all-products.html" class="nav-menu__link">ويندوز</a>
             </li>
             <li class="nav-menu__item">
-              <a href="../ar/all-products.html" class="nav-menu__link"
                 >برامج الكمبيوتر</a
               >
             </li>
             <li class="nav-menu__item">
-              <a href="../ar/all-products.html" class="nav-menu__link">  تطبيقات الهاتف</a>
             </li>
             <li class="nav-menu__item">
-              <a href="../ar/all-products.html" class="nav-menu__link"
                 >   الاتصلات</a
               >
             </li>
             <li class="nav-menu__item">
-              <a href="../ar/all-products.html" class="nav-menu__link"
                 >   برامج الافلام والمسلسلات </a
               >
             </li>
             <li class="nav-menu__item">
-              <a href="../ar/all-products.html" class="nav-menu__link">العاب</a>
             </li>
             <li class="nav-menu__item">
-              <a href="../ar/all-products.html" class="nav-menu__link">كتب الكترونيه</a>
             </li>
             <li class="nav-menu__item">
-              <a href="../ar/all-products.html" class="nav-menu__link">دورات تدريبه </a>
             </li>
             <li class="nav-menu__item">
-              <a href="../ar/all-products.html" class="nav-menu__link"
                 >بطاقات التسوق (هنقرستشن - امازون)</a
               >
             </li>
             <li class="nav-menu__item">
-                <a href="../ar/agent-profile.html" class="nav-menu__link">حسابك الشخصي</a>
               </li>
 
           <div
@@ -133,12 +119,10 @@ class Header extends HTMLElement {
          
             <div class="language-select flx-align select-has-icon">
               <img
-                src="../assets/images/icons/globe.svg"
                 alt=""
                 class="globe-icon white-version"
               />
               <img
-                src="../assets/images/icons/globe-white.svg"
                 alt=""
                 class="globe-icon dark-version"
               />
@@ -361,12 +345,10 @@ class Header extends HTMLElement {
                 class="header-right__button cart-btn position-relative"
               >
                 <img
-                  src="../assets/images/icons/cart.svg"
                   alt=""
                   class="white-version"
                 />
                 <img
-                  src="../assets/images/icons/cart-white.svg"
                   alt=""
                   class="dark-version"
                 />
@@ -381,12 +363,10 @@ class Header extends HTMLElement {
                   <span
                     class="slider text-black header-right__button white-version"
                   >
-                    <img src="../assets/images/icons/sun.svg" alt="" />
                   </span>
                   <span
                     class="slider text-black header-right__button dark-version"
                   >
-                    <img src="../assets/images/icons/moon.svg" alt="" />
                   </span>
                 </label>
               </div>
@@ -397,10 +377,8 @@ class Header extends HTMLElement {
 
             <div class="logo flex-1 justify-content-center d-flex">
               <a href="index.html" class="link white-version">
-                <img src="../assets/images/logo/logo-two.png" alt="Logo" />
               </a>
               <a href="index.html" class="link dark-version">
-                <img src="../assets/images/logo/white-logo.png" alt="Logo" />
               </a>
             </div>
             <!-- Logo End  -->
